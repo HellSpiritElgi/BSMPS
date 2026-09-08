@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Faculty+Glyphic&family=Syne+Tactile&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0%;
+  background-image: url("IMG/Arturs_arus/cosmium.png");
+  background-size: 11%;
+  background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Nazad {
+  position: fixed; 
+  transition: 0.3s;
+  opacity: 0.1;
+}
+
+.Nazad:hover {
+  position: fixed; 
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+header {
+    background-color: #4C061D;
+}
+
+header h1 {
+    color: #C33C54;
+    font-size: 100px;
+    font-family: 'Eagle Lake';
+    padding: 10px 10px 0px 10px;
+}
+
+header h2 {
+    color: #FFBF46;
+    font-size: 50px;
+    font-family: 'Syne Tactile';
+    padding: 0px 10px 10px 10px;
+}
+
+nav {
+    background-color: #71B48D;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+}
+
+nav h2 {
+    background-color: #86CB92;
+    color: #FFFDD0;
+    padding: 10px;
+    margin: 5px 10px;
+    border: 1px solid #71B48D;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #167997;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #187795;
+    height: auto;
+    width: min-content;
+}
+
+main > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+main > div > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.FokussArt {
+    width: auto;
+    height: 100px;
+    background-color: #2589BD;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+h1, h2, h3, h6{
+    margin: 0;
+    color: cornsilk;
+    font-family: 'Faculty Glyphic';
+}
+
+h1 { font-size: 30px; margin-bottom: 10px; }
+h2 { font-size: 30px; margin-top: auto; }
+h3 { font-size: 20px; font-weight: normal; }

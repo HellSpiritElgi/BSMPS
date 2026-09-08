@@ -2466,6 +2466,12 @@ body .lefto, .raito, .perkš, .Nazad {
   scale: 0.2;
 }
 
+.shopyman{
+  top: 40px;
+  left: 380px;
+  scale: 0.3;
+}
+
 /*Kitcanet*/
 
 .arsonpurpleguy{
