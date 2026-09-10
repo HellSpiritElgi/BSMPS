@@ -1,0 +1,3060 @@
+
+/*UI stuff*/
+
+body{
+  margin: 0%;
+  background-image: url("IMG/Arturs_arus/cosmium.png");
+  background-size: 11%;
+  background-repeat: repeat;
+}
+
+body img, a {
+  position: fixed;
+  top: 41%;
+  left: 36%;
+}
+
+body div img, a {
+  position: fixed;
+  top: 15%;
+  left: 30%;
+  width: 27.1%;
+  height: auto;
+}
+
+.becground {
+  top: 3%;
+  left: 11%;
+  width: 78.13vw;
+  height: 93.58vh;
+}
+
+.Nulhlh{
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+
+/*Controls*/
+
+body .lefto, .raito, .perkš, .Nazad {
+  width: 10.417%;
+  height: 87.052%;
+  top: 5.442%;
+  background-color: aliceblue;
+  position: absolute;
+}
+
+.lefto {
+  transition: 0.3s;
+  opacity: 0.1;
+}
+
+.lefto:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+.raito {
+  transition: 0.3s;
+  opacity: 0.1;
+}
+
+.raito:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+.Nazad {
+  transition: 0.3s;
+  opacity: 0.1;
+}
+
+.Nazad:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+/*House*/
+
+.house-wrap{
+  top: 170px;
+  left: -40px;
+  scale: 1;
+  position: relative;
+}
+
+.house1{
+  transition: 0.6s;
+  opacity: 0;
+}
+
+.house-wrap:hover .house1{
+  transition: 0.6s;
+  opacity:1;
+}
+
+.greenhouse {
+  top: 250px;
+  left: 1030px;
+  scale: 1;
+  transition: 0.6s;
+}
+
+.greenhouse:hover {
+  transition: 0.6s;
+  filter: hue-rotate(90deg);
+}
+
+.land{
+  top: 630px;
+  left: 840px;
+  scale: 3.5;
+}
+
+.big_old_clockey {
+  top: -640px;
+  left: 770px;
+  scale: 0.1;
+  rotate: 40deg;
+}
+
+.booble {
+  top: 170px;
+  left: 90px;
+  scale: 0.3;
+  opacity: 0.5;
+}
+
+.dodocoin {
+  top: 540px;
+  left: 975px;
+  scale: 0.8;
+}
+
+.godd_dalegs {
+  top: 0px;
+  left: 1300px;
+  scale: 0.2;
+}
+
+.inaprishelenehc {
+  top: -150px;
+  left: 380px;
+  scale: 0.2;
+}
+
+.kometa {
+  top: -260px;
+  left: -170px;
+  scale: 0.3;
+}
+
+.pukhis_cools {
+  top: 0px;
+  left: 1300px;
+  scale: 0.3;
+}
+
+.spektakls {
+  top: -400px;
+  left: 900px;
+  scale: 0.1;
+}
+
+.sputniks_aaah {
+  top: 450px;
+  left: -90px;
+  scale: 0.7;
+}
+
+.TARBIS {
+  top: 100px;
+  left: 1300px;
+  scale: 0.3;
+}
+
+/*Inagreen*/
+
+.stand {
+  top: 35%;
+  left: 68%;
+  scale: 49%;
+}
+
+.stand_in_book {
+  top: -155.5%;
+  left:  3.2%;
+  scale: 2.2%;
+  transform: perspective(4200px) rotateX(20deg);
+}
+
+.atkap_purkels {
+  top: 70px;
+  left: 800px;
+  scale: 0.2;
+}
+
+.bite {
+  top: -380px;
+  left: 319px;
+  scale: 0.1;
+}
+
+.dos_jes_douh {
+  top: -210px;
+  left: 890px;
+  scale: 0.05;
+}
+
+.drugiipupleflovi {
+  top: 300px;
+  left: 930px;
+  scale: 0.3;
+}
+
+.gold_sakura {
+  top: 0px;
+  left: 490px;
+  scale: 0.4;
+}
+
+.Hedasakoks {
+  top: -100px;
+  left: 510px;
+  scale: 0.3;
+}
+
+.kautkaspalns {
+  top: 353px;
+  left: 929px;
+  scale: 0.2;
+}
+
+.kusts {
+  top: 530px;
+  left: 240px;
+  scale: 0.6;
+}
+
+.mechats_w_roke {
+  top: -310px;
+  left: 540px;
+  scale: 0.08;
+}
+
+.mushkhehrahj {
+  top: 560px;
+  left: 510px;
+  scale: 0.2;
+}
+
+.pantiin {
+  top: 310px;
+  left: 370px;
+  scale: 0.2;
+}
+
+.pertri {
+  top: 120px;
+  left: 920px;
+  scale: 0.4;
+}
+
+.pink_sakura {
+  top: -100px;
+  left: 260px;
+  scale: 0.3;
+}
+
+.plants {
+  top: -230px;
+  left: 213px;
+  scale: 0.1;
+}
+
+.purpl_sakura {
+  top: 150px;
+  left: 350px;
+  scale: 0.6;
+}
+
+.purpleflovini {
+  top: 390px;
+  left: -60px;
+  scale: 0.5;
+}
+
+.puķes {
+  top: 500px;
+  left: 1400px;
+  scale: 0.7;
+}
+
+.salds1 {
+  top: -390px;
+  left: 1137px;
+  scale: 0.08;
+}
+
+.salds_ējums1 {
+  top: -640px;
+  left: 930px;
+  scale: 0.04;
+}
+
+.salds_ējums2 {
+  top: -220px;
+  left: 1260px;
+  scale: 0.09;
+}
+
+.salds_ējums3 {
+  top: -250px;
+  left: 1130px;
+  scale: 0.07;
+}
+
+.semkas {
+  top: -100px;
+  left: 330px;
+  scale: 0.1;
+}
+
+.shreoom_circle {
+  top: 510px;
+  left: 450px;
+  scale: 0.4;
+}
+
+.skulliki2 {
+  top: -90px;
+  left: 530px;
+  scale: 0.07;
+}
+
+.sukulant {
+  top: -30px;
+  left: 900px;
+  scale: 0.07;
+}
+
+.wedorka {
+  top: 250px;
+  left: 600px;
+  scale: 0.2;
+}
+
+.zars {
+  top: -120px;
+  left: 273px;
+  scale: 0.1;
+}
+
+.zem_sald_eejums {
+  top: -150px;
+  left: 870px;
+  scale: 0.06;
+}
+
+.zememememes {
+  top: 0px;
+  left: 447px;
+  scale: 0.3;
+}
+
+.svirlijs {
+  top: 440px;
+  left: 1108px;
+  scale: 0.1;
+}
+
+.Candy_scream_koks {
+  top: 120px;
+  left: 1220px;
+  scale: 0.8;
+}
+
+.Strobery_jam {
+  top: -290px;
+  left: 990px;
+  scale: 0.06;
+}
+
+.Maby_plants {
+  top: -270px;
+  left: 70px;
+  scale: 0.3;
+}
+
+.poweshanij_plant {
+  top: -260px;
+  left: 1310px;
+  scale: 0.4;
+}
+
+.pikus_aksey {
+  top: 110px;
+  left: 660px;
+  scale: 0.08;
+}
+
+/*Inahose*/
+
+.bd {
+  left: 11%;
+  top: 38%;
+}
+
+.rEMOUTUS img {
+  width: 4.167%;
+  height: auto;
+  top: 54%;
+  left: 27%;
+}
+
+.zhving {
+  top: 4.571%;
+  left: 63%;
+  scale: 0.95;
+}
+
+.FlatCat {
+  top: 34%;
+  left: 45.5%;
+  scale: 0.25;
+}
+
+.TVv {
+  scale: 0.3;
+  top: 30%;
+  left: 48.5%;
+}
+
+.vide {
+  scale: 0.37;
+  top: 36.5%;
+  left: 52.1%;
+  opacity: 0;
+  transition: 1s;
+}
+
+.TVv:hover + .vide {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.vide:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.CDssnuts {
+  scale: 0.9;
+  top: 62%;
+  left: 57.5%;
+}
+
+.Waining_vanila{
+  position: absolute;
+  left: 16%;
+  top: 28%;
+}
+
+.moooo{
+  top: -20.567%;
+  left: 15.5385%;
+  scale: 0.15;
+  transform: perspective(160px) rotateX(-2deg);
+}
+
+.bili_u_bauli{
+  top: -34.278%;
+  left: 43.594%;
+  scale: 0.2;
+  transform: perspective(160px) rotateX(-2deg);
+}
+
+.smishariki{
+  top: -15.234%;
+  left: 0.525%;
+  scale: 0.1;
+  transform: perspective(160px) rotateX(-2deg);
+}
+
+.Trafka {
+  top: 531px;
+  left: 226px;
+  scale: 0.9;
+  transform: perspective(530px) rotateX(48deg);
+}
+
+.stulsformusickas {
+  top: 36%;
+  left: 43%;
+  scale: 0.35;
+}
+
+.rozenoRozes {
+  top: 30.468%;
+  left: 51.1459%;
+  scale: 0.4;
+  transform: perspective(160px) rotateX(-4deg);
+}
+
+.velkirija {
+  top: -6.747%;
+  left: 31.234%;
+  scale: 0.12;
+}
+
+.bilzhuksUno {
+  top: 13.385%;
+  left: 10.365%;
+  scale: 1;
+  transform: perspective(373px) rotateY(53deg) rotateX(-5deg);
+  width: 10.521%;
+  height: 27.205%;
+}
+
+.bilzhuksToo {
+  top: 5.66%;
+  left: 17.323%;
+  scale: 0.6;
+  transform: perspective(160px) rotateX(-4deg);
+  width: 10.573%;
+  height: 30.468%;
+}
+
+/*TvButBliska*/
+
+.cH {
+  top: 165px;
+  left: 142px;
+  scale: 1.85;
+}
+
+.cH img {
+  width: 400px;
+  height: 300px;
+}
+
+#gif1{
+  display: none;
+}
+
+#gif2{
+  display: none;
+}
+
+#gif3{
+  display: none;
+}
+
+#gif4{
+  display: none;
+}
+
+.knopushka1 {
+  top: 650px;
+  left: 1370px;
+  scale: 0.5;
+  transform: rotate(-45deg);
+}
+
+.knopushka2 {
+  top: 612px;
+  left: 1415px;
+  scale: 0.5;
+  transform: rotate(-45deg);
+
+}
+.knopushka3 {
+  top: 572px;
+  left: 1467px;
+  scale: 0.5;
+  transform: rotate(-49deg);
+
+}
+.knopushka4 {
+  top: 532px;
+  left: 1507px;
+  scale: 0.5;
+  transform: rotate(-45deg);
+}
+
+.remoikokla {
+  top: -120px;
+  left: 620px;
+  scale: 0.5;
+}
+
+/*Frums*/
+
+.carp {
+  top: 66%;
+  left: 33%;
+  scale: 40%;
+  transform: perspective(530px) rotateX(48deg);
+}
+
+.blu_grib {
+  top: 17%;
+  left: 73%;
+  scale: 33%;
+}
+
+.cat_frums {
+  top: 12%;
+  left: 75%;
+  scale: 20%;
+}
+
+.cat_tato {
+  top: 48%;
+  left: 34%;
+  scale: 12%;
+}
+
+.cHil {
+  top: 1%;
+  left: 1%;
+  scale: 7%;
+}
+
+.chinchila {
+  top: 50%;
+  left: 37%;
+  scale: 21%;
+}
+
+.eye_dog {
+  top: 36%;
+  left: 61%;
+  scale: 10%;
+}
+
+.Frums_dance {
+  top: 6%;
+  left: 73%;
+  scale: 122%;
+}
+
+.Frums_dance2 {
+  top: -12%;
+  left: 42%;
+  scale: 29%;
+}
+
+.Frums1 {
+  top: -3%;
+  left: 11%;
+  scale: 5%;
+  transform: rotate(45deg);
+}
+
+.Frums2 {
+  top: 44.8%;
+  left: 57%;
+  scale: 46%;
+}
+
+.Frums3 {
+  top: 42.3%;
+  left: 46%;
+  scale: 45%;
+}
+
+.grib_ded {
+  top: 44%;
+  left: 9%;
+  scale: 21%;
+}
+
+.Ham_and_uni {
+  top: 2%;
+  left: 39%;
+  scale: 30%;
+}
+
+.kakh_zakh {
+  top: 44%;
+  left: 17%;
+  scale: 17%;
+}
+
+.Le_margar_dence {
+  top: -13%;
+  left: 48%;
+  scale: 31%;
+}
+
+.monky_nut {
+  top: 58%;
+  left: 17%;
+  scale: 9%;
+}
+
+.papub_buber {
+  top: 13%;
+  left: 77%;
+  scale: 44%;
+}
+
+.per_ded {
+  top: 49%;
+  left: 65%;
+  scale: 25%;
+}
+
+.per_faza {
+  top: 53%;
+  left: 73%;
+  scale: 22%;
+}
+
+.per_son {
+  top: 46%;
+  left: 68%;
+  scale: 20%;
+}
+
+.per_per {
+  top: 38%;
+  left: 67%;
+  scale: 8%;
+}
+
+.per_beb {
+  top: 61%;
+  left: 69%;
+  scale: 18%;
+}
+
+.Pipotam {
+  top: 13%;
+  left: -1%;
+  scale: 7%;
+}
+
+.stob_elifan {
+  top: -7%;
+  left: 15%;
+  scale: 30%;
+}
+
+.Cheremsha {
+  top: 24%;
+  left: 12%;
+  scale: 114%;
+}
+
+.per_joye{
+  top: 490px;
+  left: 180px;
+  scale: 0.3;
+}
+
+.per_kus_kus{
+  top: 520px;
+  left: 110px;
+  scale: 0.2;
+}
+
+.per_grany{
+  top: 415px;
+  left: 170px;
+  scale: 0.17;
+}
+
+.per_labottomy{
+  top: 240px;
+  left: -100px;
+  scale: 0.07;
+}
+
+.per_weil{
+  top: 565px;
+  left: 222px;
+  scale: 0.14;
+}
+
+
+/*Darbistab*/
+
+.skpV, .Gld, .skpB {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 115px;
+  left: 500px;
+}
+
+.skpB {
+  left: 1150px;
+  top: 90px;
+}
+
+.Gld {
+  left: 143px;
+  top: 47px;
+  width: 446px;
+  height: 499px;
+}
+
+#Dot {
+  top: 800px;
+  left: 600px;
+  scale: 0.4;
+}
+
+.klacklac{
+  top: 99px;
+  left: 303px;
+  scale: 0.3;
+}
+
+.Pampam {
+  top: -140px;
+  left: 450px;
+  scale: 0.55;
+}
+
+.Penene{
+  top: 298px;
+  left: 487px;
+  scale: 0.2;
+}
+
+.Caimera{
+  top: -112px;
+  left: 447px;
+  scale: 0.6;
+}
+
+.plepdishes{
+  top: -61px;
+  left: 479px;
+  scale: 0.55;
+}
+
+.Boumashka{
+  top: 278px;
+  left: 457px;
+  scale: 0.2;
+}
+
+.briluks {
+  top: 246px;
+  left: 381px;
+  scale: 0.25;
+}
+
+.inkainka{
+  top: 273px;
+  left: 480px;
+  scale: 0.2;
+}
+
+.krleses{
+  top: 388px;
+  left: 563px;
+  scale: 0.8;
+  transform: rotate(-34deg);
+}
+
+.Potion1{
+  top: -97px;
+  left: 1074px;
+  scale: 0.1;
+}
+
+.Potion2{
+  top: 141px;
+  left: 1148px;
+  scale: 0.25;
+}
+
+.Potion3{
+  top: -243px;
+  left: 893px;
+  scale: 0.05;
+}
+
+.Potion4{
+  top: -162px;
+  left: 1061px;
+  scale: 0.08;
+}
+
+.Potion5{
+  top: 296px;
+  left: 1068px;
+  scale: 0.15;
+}
+
+.Potion6{
+  top: 56px;
+  left: 1084px;
+  scale: 0.1;
+}
+
+.Potion7{
+  top: -361px;
+  left: 1077px;
+  scale: 0.06;
+}
+
+.Potion8{
+  top: -432px;
+  left: 965px;
+  scale: 0.06;
+}
+
+.Potion9{
+  top: -13px;
+  left: 1185px;
+  scale: 0.07;
+}
+
+.Potion10{
+  top: -133px;
+  left: 881px;
+  scale: 0.08;
+}
+
+.Potion11{
+  top: -101px;
+  left: 767px;
+  scale: 0.06;
+}
+
+.Potion12{
+  top:55px;
+  left: 994px;
+  scale: 0.08;
+}
+
+.Potion13{
+  top: 121px;
+  left: 1250px;
+  scale: 0.2;
+}
+
+.Potion14{
+  top: -426px;
+  left: 998px;
+  scale: 0.06;
+}
+
+.Potion15{
+  top: -27px;
+  left: 980px;
+  scale: 0.08;
+}
+
+.Potion16{
+  top: -20px;
+  left: 913px;
+  scale: 0.1;
+}
+
+.Potion17{
+  top: -150px;
+  left: 523px;
+  scale: 0.15;
+}
+
+.Potion18{
+  top: -143px;
+  left: 750px;
+  scale: 0.1;
+}
+
+.Potion19{
+  top: 230px;
+  left: 990px;
+  scale: 0.17;
+}
+
+.Potion20{
+  top: 250px;
+  left: 1160px;
+  scale: 0.2;
+}
+
+.Potion21{
+  top: 5px;
+  left: 999px;
+  scale: 0.08;
+}
+
+.Potion22{
+  top: -290px;
+  left: 450px;
+  scale: 0.08;
+}
+
+.Potion23{
+  top: 220px;
+  left: 1123px;
+  scale: 0.1;
+}
+
+.rokus_magikus_falsh_goldus{
+  top: -154px;
+  left: 888px;
+  scale: 0.08;
+}
+
+.sals_kegstals{
+  top: 120px;
+  left: 690px;
+  scale: 0.17;
+}
+
+.star_rokus{
+  top: -116px;
+  left: 1046px;
+  scale: 0.16;
+}
+
+.aimetistos{
+  top: 103px;
+  left: 810px;
+  scale: 0.15;
+}
+
+.bizmuts{
+  top: 190px;
+  left: 888px;
+  scale: 0.1;
+}
+
+.Crestalus_kavoto_aces{
+  top: 424px;
+  left: 1220px;
+  scale: 0.1;
+}
+
+.dark_and_evel_rockus{
+  top: 232px;
+  left: 1070px;
+  scale: 0.2;
+}
+
+.Hrustal_cvetak{
+  top: 12px;
+  left: 1056px;
+  scale: 0.16;
+}
+
+.Kraislers{
+  top: -127px;
+  left: 640px;
+  scale: 0.07;
+}
+
+.krasivijs_krestals{
+  top: -24px;
+  left: 1274px;
+  scale: 0.22;
+}
+
+.lavatral{
+  top: -76px;
+  left: 570px;
+  scale: 0.07;
+}
+
+.lavus_krokus{
+  top: -140px;
+  left: 1010px;
+  scale: 0.1;
+}
+
+.pinkus_rokus{
+  top: -370px;
+  left: 630px;
+  scale: 0.05;
+}
+
+.Shara_ved{
+  top: 444px;
+  left: 410px;
+  scale: 0.2;
+}
+
+.Solarus_looker{
+  top: 180px;
+  left: 244px;
+  scale: 0.07;
+}
+
+.time_lashina{
+  top: 200px;
+  left: 400px;
+  scale: 0.12;
+}
+
+.ball1{
+  top: -2px;
+  left: 254px;
+  scale: 0.06;
+}
+
+.gold_aple{
+  top: 288px;
+  left: 416px;
+  scale: 0.12;
+}
+
+.Goled_planetad{
+  top: -240px;
+  left: 184px;
+  scale: 0.06;
+}
+
+.lova_worldus{
+  top: -18px;
+  left: 336px;
+  scale: 0.09;
+}
+
+.magus_blobus{
+  top: -180px;
+  left: 318px;
+  scale: 0.06;
+}
+
+.planeta_voktus_shitadus{
+  top: -12px;
+  left: 657px;
+  scale: 0.12;
+}
+
+.paklagers{
+  top: 428px;
+  left: 461px;
+  scale: 0.5;
+}
+
+.maslou{
+  top: 0px;
+  left: 860px;
+  scale: 0.05;
+}
+
+.kaska_pinkus{
+  top: 420px;
+  left: 1000px;
+  scale: 0.2;
+}
+
+.gorda{
+  top: -295px;
+  left: 246px;
+  scale: 0.1;
+}
+
+.bookes_tover{
+  top: 315px;
+  left: 1238px;
+  scale: 0.3;
+}
+
+.GSMSA{
+  top: 322px;
+  left: 1045px;
+  scale: 0.17;
+}
+
+.FeamleDogs{
+  top: 156px;
+  left: 1085px;
+  scale: 0.17;
+}
+
+.AizliektaisDzeriens{
+  top: -240px;
+  left: 948px;
+  scale: 0.09;
+}
+
+/*Galds*/
+
+.MLa {
+  left: 208px;
+  top: 27px;
+  width: 592px;
+  height: auto;
+}
+
+/*doors*/
+
+.hetum{
+  top: -83px;
+  left: 863px;
+  scale: 0.45;
+}
+
+.somkoko{
+  top: 112px;
+  left: 954px;
+  scale: 0.4;
+}
+
+.lietum{
+  top: 124px;
+  left: 911px;
+  scale: 0.35;
+}
+
+.gramkam{
+  top: -1px;
+  left: 289px;
+  scale: 0.6;
+}
+
+.dverca img {
+  top: 10px;
+  left: 1437px;
+  scale: 0.7;
+  transform: perspective(200px) rotateY(-16deg);
+  width: 331px;
+  height: 938px;
+}
+
+.kortena {
+  top: -60px;
+  left: 1213px;
+  scale: 0.3;
+  transform: perspective(1000px) rotateY(-43deg);
+  width: 492px;
+  height: 800px;
+}
+
+.kvadrantiks {
+  top: 311px;
+  left: 694px;
+  scale: 0.5;
+  transform: perspective(1500px) rotateX(74deg);
+  width: 492px;
+  height: 800px;
+}
+
+.book1 {
+  top: 400px;
+  left: 95px;
+  scale: 0.3;
+}
+
+.book2 {
+  top: 251px;
+  left: 312px;
+  scale: 0.15;
+  transform: perspective(1500px) rotateY(-13deg);
+  width: 492px;
+  height: 800px;
+}
+
+.book3 {
+  top: 254px;
+  left: 194px;
+  scale: 0.2;
+  transform: perspective(1500px) rotateY(8deg);
+  width: 492px;
+  height: 800px;
+}
+
+.book4 {
+  top: 274px;
+  left: 239px;
+  scale: 0.15;
+  transform: perspective(1500px) rotateY(26deg);
+  width: 492px;
+  height: 800px;
+}
+
+.cepka{
+  top: 20px;
+  left: 930px;
+  scale: 0.2;
+}
+
+/*berns*/
+
+.Bird_not_plant{
+  top: -360px;
+  left: 680px;
+  scale: 0.35;
+}
+
+.cabin_up{
+  top: 240px;
+  left: 1030px;
+  scale: 0.5;
+}
+
+.Drink_me_or_day{
+  top: -150px;
+  left: 960px;
+  scale: 0.08;
+}
+
+.Globalus{
+  top: 40px;
+  left: 430px;
+  scale: 0.25;
+}
+
+.korobka{
+  top: 275px;
+  left: 10px;
+  scale: 0.4;
+}
+
+.Korobka_mony{
+  top: 120px;
+  left: 180px;
+  scale: 0.2;
+}
+
+.Loookers{
+  top: 310px;
+  left: 950px;
+  scale: 0.6;
+}
+
+.nomomy_karobka{
+  top: 220px;
+  left: 120px;
+  scale: 0.2;
+}
+
+.pesmo{
+  top: -30px;
+  left: 1240px;
+  scale: 0.15;
+}
+
+.Putns_runātājs{
+  top: 60px;
+  left: 827px;
+  scale: 0.25;
+}
+
+.Realitates_enkurs{
+  top: 110px;
+  left: 300px;
+  scale: 0.5;
+}
+
+.minimja{
+  top: 320px;
+  left: 340px;
+  scale: 0.4;
+}
+
+.Roros{
+  top: 155px;
+  left: 1248px;
+  scale: 0.2;
+}
+
+.U_gona_eat_me{
+  top: -10px;
+  left: 817px;
+  scale: 0.1;
+}
+
+.Akvaparks{
+  top: -85px;
+  left: 787px;
+  scale: 0.2;
+}
+
+.metal_boshka_kruta{
+  top: 400px;
+  left: 660px;
+  scale: 0.27;
+}
+
+.Prosto_felha{
+  top: 220px;
+  left: 1080px;
+  scale: 0.25;
+}
+
+.Svistulha{
+  top: 220px;
+  left: 100px;
+  scale: 0.05;
+}
+
+.vizh_uka{
+  top: 460px;
+  left: 510px;
+  scale: 0.2;
+}
+
+.wrum_wrumka{
+  top: 450px;
+  left: 1300px;
+  scale: 0.8;
+}
+
+/*BeldeDurvis*/
+
+.glezuka{
+  top: 110px;
+  left: 416px;
+  scale: 0.4;
+}
+
+.Dorvca{
+  top: -5px;
+  left: 1000px;
+  scale: 0.6;
+}
+
+.vins{
+  top: 4px;
+  left: 295px;
+  scale: 0.25;
+}
+
+.galdsnormals{
+  top: 285px;
+  left: 446px;
+  scale: 0.6;
+}
+
+.pat_dievam_nevajag_buut {
+  top: -142px;
+  left: 257px;
+  scale: 0.55;
+}
+
+.mrbeans{
+  top: 345px;
+  left: 191px;
+  scale: 1;
+}
+
+.zemkas{
+  top: -153px;
+  left: 129px;
+  scale: 0.1;
+}
+
+.glasaskus{
+  top: 244px;
+  left: 553px;
+  scale: 0.3;
+}
+
+.scecesese{
+  top: 5px;
+  left: 345px;
+  scale: 0.1;
+}
+
+.skolas_fakcijas_karogs {
+  top: 30px;
+  left: 1219px;
+  scale: 0.6;
+}
+
+.iaiaia{
+  top: 232px;
+  left: 1246px;
+  scale: 0.7;
+}
+
+.tikklok{
+  top: -358px;
+  left: 634px;
+  scale: 0.2;
+}
+
+.lupatuklaajs {
+  top: 121px;
+  left: 526px;
+  scale: 0.4;
+  transform: perspective(860px) rotateX(70deg);
+}
+
+.mjau_bet_liels {
+  top: -40px;
+  left: 1008px;
+  scale: 0.14;
+}
+
+.ne_ne_atkrivaet_ili_pishet {
+  top: 39px;
+  left: 1078px;
+  scale: 0.1;
+}
+
+.ne_s_letavikam {
+  top: -62px;
+  left: 927px;
+  scale: 0.06;
+}
+
+/*Gleznaa*/
+
+.bords{
+  top: 176px;
+  left: 730px;
+  scale: 1;
+}
+
+.Dat_gld{
+  top: -115px;
+  left: 830px;
+  scale: 0.35;
+}
+
+.Skp{
+  top: 170px;
+  left: 250px;
+  scale: 0.8;
+}
+
+.kompiks{
+  top: 317px;
+  left: 974px;
+  scale: 0.3;
+}
+
+.Coffffe{
+  top: 251px;
+  left: 954px;
+  scale: 0.1;
+}
+
+.hleboshek{
+  top: 346px;
+  left: 985px;
+  scale: 0.2;
+}
+
+.Kraslers{
+  top: 270px;
+  left: 1220px;
+  scale: 0.5;
+}
+
+.mannastinte{
+  top: -259px;
+  left: 900px;
+  scale: 0.1;
+}
+
+.purperpaklejers{
+  top: 250px;
+  left: 290px;
+  scale: 0.7;
+  transform: perspective(1400px) rotateX(80deg);
+  width: 900px;
+  height: 900px;
+}
+
+.globkus{
+  top: -145px;
+  left: 650px;
+  scale: 0.2;
+}
+
+.Kamera_portals{
+  top: 125px;
+  left: 1325px;
+  scale: 0.5;
+}
+
+.Kastopletka{
+  top: 137px;
+  left: -33px;
+  scale: 0.25;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Lanterna{
+  top: -365px;
+  left: 480px;
+  scale: 0.1;
+}
+
+.Ingenier_dore{
+  top: 5px;
+  left: 191px;
+  scale: 0.7;
+  transform: perspective(1000px) rotateY(50deg);
+  width: 400px;
+  height: 800px;
+}
+
+#Door {
+  display: none;
+  pointer-events: none;  
+  opacity: 0;
+  transition: opacity 3s cubic-bezier(0.42, 0, 1, 1);
+}
+
+/*Ingenrompa*/
+
+.logs{
+  top: 153px;
+  left: 305px;
+  width: 152px;
+  height: 398px;
+}
+
+.Akardions {
+  top: 320px;
+  left: 880px;
+  scale: 0.26;
+}
+
+.beeeeejesity {
+  top: 370px;
+  left: 1250px;
+  scale: 0.3;
+}
+
+.Bodya {
+  top: 320px;
+  left: 492px;
+  scale: 0.2;
+}
+
+.Chasen {
+  top: -30px;
+  left: 720px;
+  scale: 0.2;
+}
+
+.chasi_morfeja {
+  top: -30px;
+  left: 660px;
+  scale: 0.15;
+}
+
+.chipiki {
+  top: 200px;
+  left: 1090px;
+  scale: 0.1;
+}
+
+.Creep {
+  top: 390px;
+  left: 1270px;
+  scale: 0.3;
+}
+
+.dalitajs {
+  top: 70px;
+  left: 410px;
+  scale: 0.15;
+}
+
+.duncis {
+  top: 100px;
+  left: 1000px;
+  scale: 0.3;
+}
+
+.furnature_skapiti {
+  top: -60px;
+  left: -150px;
+  scale: 0.3;
+}
+
+.furshet {
+  top: -50px;
+  left: 1290px;
+  scale: 0.2;
+}
+
+.galdus_mazus {
+  top: 400px;
+  left: 1360px;
+  scale: 0.6;
+}
+
+.game_thingy {
+  top: -120px;
+  left: 420px;
+  scale: 0.1;
+}
+
+.Greenich_wizards {
+  top: -149px;
+  left: 1460px;
+  scale: 0.2;
+}
+
+.globus_merkus {
+  top: -470px;
+  left: 370px;
+  scale: 0.1;
+}
+
+.Golem_dubby {
+  top: 130px;
+  left: 1340px;
+  scale: 0.3;
+}
+
+.golem_mama {
+  top: -202px;
+  left: 1282px;
+  scale: 0.1;
+}
+
+.golem_tata_i_brata {
+  top: -60px;
+  left: 1330px;
+  scale: 0.2;
+}
+
+.goto_planto {
+  top: -83px;
+  left: 400px;
+  scale: 0.1;
+}
+
+.gramatula_stanti {
+  top: 260px;
+  left: 190px;
+  scale: 0.4;
+}
+
+.gribus_lampus {
+  top: -80px;
+  left: 450px;
+  scale: 0.1;
+}
+
+.Gultinsh {
+  top: 390px;
+  left: 930px;
+  scale: 0.8;
+}
+
+.kemme {
+  top: 141px;
+  left: 370px;
+  scale: 0.07;
+}
+
+.kris {
+  top: 390px;
+  left: 1170px;
+  scale: 0.2;
+}
+
+.liekus-lietus_shetus {
+  top: -280px;
+  left: 400px;
+  scale: 0.34;
+  transform: perspective(500px) rotateY(13deg);
+}
+
+.liekus-lietus_shetus1 {
+  top: -280px;
+  left: 400px;
+  scale: 0.34;
+  transform: perspective(500px) rotateY(13deg);
+}
+
+.nochnik_tumba {
+  top: 270px;
+  left: 370px;
+  scale: 0.4;
+}
+
+.Paklajs_skaistis {
+  top: 390px;
+  left: 870px;
+  scale: 0.5;
+  transform: perspective(500px) rotateX(49deg);
+}
+
+.pepersheiker_and_tarbis {
+  top: -290px;
+  left: 220px;
+  scale: 0.06;
+}
+
+.Pisaa_aparata {
+  top: 70px;
+  left: 460px;
+  scale: 0.1;
+}
+
+.Polushkanha {
+  top: 220px;
+  left: 1290px;
+  scale: 0.6;
+  transform: perspective(200px) rotateX(20deg) rotateY(-25deg);
+}
+
+.ralses {
+  top: 170px;
+  left: 972px;
+  scale: 0.1;
+}
+
+.Redus_demanug_et_brojers {
+  top: -130px;
+  left: 1230px;
+  scale: 0.15;
+  rotate: -9deg;
+}
+
+.Shkafs_importantei {
+  top: -130px;
+  left: 1120px;
+  scale: 0.25;
+}
+
+.Slim_slam {
+  top: 340px;
+  left: 1090px;
+  scale: 0.15;
+}
+
+.smolometr {
+  top: 150px;
+  left: 400px;
+  scale: 0.3;
+}
+
+.Sumka_umka {
+  top: 10px;
+  left: 840px;
+  scale: 0.14;
+}
+
+.Telefonians {
+  top: -20px;
+  left: 840px;
+  scale: 0.1;
+}
+
+.Toyjouta {
+  top: 60px;
+  left: 940px;
+  scale: 0.06;
+}
+
+.truth_and_nolage {
+  top: -270px;
+  left: 520px;
+  scale: 0.06;
+}
+
+.undermaindu_cietums {
+  top: -300px;
+  left: 1110px;
+  scale: 0.1;
+}
+
+/*logsSpoks*/
+
+.moonuel1 {
+  top: 200px;
+  left: 950px;
+  scale: 0.3;
+}
+
+.moonuel2 {
+  top: 0px;
+  left: 563px;
+  scale: 0.3;
+}
+
+.moonuel3 {
+  top: 400px;
+  left: 330px;
+  scale: 0.3;
+}
+
+/*Potolokes*/
+
+.Anagele {
+  top: 24%;
+  left: 66.6%;
+  scale: 114%;
+  transform: rotate(33.3deg);
+}
+
+.Luztra {
+  top: 13%;
+  left: 33%;
+  scale: 44%;
+}
+
+.powuk_dom {
+  top: 3%;
+  left: 8%;
+  scale: 61%;
+  transform: perspective(530px) rotateX(-37deg) rotateY(-4deg);
+}
+
+.Powuk {
+  top: -25%;
+  left: -3%;
+  scale: 10%;
+}
+
+/*CheesesRise*/
+
+.gaiteti {
+  top: 8%;
+  left: 17%;
+  scale: 51%;
+}
+
+.Joshuaa {
+  top: 9%;
+  left: 31%;
+  scale: 58%;
+}
+
+.True_head_Jesus {
+  top: -33.5%;
+  left: 27.5%;
+  scale: 6.5%;
+  opacity: 0;
+  transition: 1s;
+}
+
+.True_head_Jesus:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.Diskooo {
+  top: -15%;
+  left: 28.6%;
+  scale: 6%;
+}
+
+.Barrr {
+  top: -53.5%;
+  left: 36.2%;
+  scale: 3.5%;
+}
+
+.baMBam {
+  top: 37.5%;
+  left: 11.2%;
+  scale: 50%;
+}
+
+.fliing_burger {
+  top: 6.5%;
+  left: 63.2%;
+  scale: 40%;
+}
+
+.Houly_cow {
+  top: 3.5%;
+  left: 7.2%;
+  scale: 29%;
+}
+
+.Long_dogiy {
+  top: 12.5%;
+  left: 79.2%;
+  scale: 42%;
+}
+
+.mousterian {
+  top: 21.5%;
+  left: 65.2%;
+  scale: 64%;
+}
+
+.Pinpin {
+  top: 53.5%;
+  left: 63.2%;
+  scale: 60%;
+}
+
+.piupiu {
+  top: 46.5%;
+  left: 10.2%;
+  scale: 63%;
+}
+
+.Rufus_krisus {
+  top: 44.5%;
+  left: 17.2%;
+  scale: 111%;
+}
+
+/*HellBar*/
+
+.Bartender {
+  top: -5.5%;
+  left: 52.2%;
+  scale: 66.6%;
+}
+
+.fork {
+  top: 13%;
+  left: 54.2%;
+  scale: 66.6%;
+}
+
+.Ash_babay {
+  top: 66%;
+  left: 16%;
+  scale: 124%;
+}
+
+.Beby_head {
+  top: 36%;
+  left: 55.2%;
+  scale: 32.6%;
+  transform: rotate(-23deg);
+}
+
+.Culdron {
+  top: 7%;
+  left: 28.2%;
+  scale: 25.6%;
+}
+
+.demon_boys {
+  top: 9%;
+  left: 5.2%;
+  scale: 38%;
+  transform: perspective(500px) rotateX(-14deg) rotateY(17deg);
+}
+
+.Monkys {
+  top: 42%;
+  left: 19.2%;
+  scale: 46%;
+}
+
+.pear_pica_AAAAAA {
+  top: 43%;
+  left: 25.2%;
+  scale: 20%;
+}
+
+.Scelly2 {
+  top: 4%;
+  left: 32.2%;
+  scale: 32.6%;
+}
+
+.Skelly1 {
+  top: 29%;
+  left: 47.2%;
+  scale: 94.6%;
+}
+
+.the_not_devil {
+  top: 6%;
+  left: 13.2%;
+  scale: 22%;
+}
+
+/*AbscuraDisko*/
+
+.BUMBUM {
+  top: -49%;
+  left: 19.2%;
+  scale: 15%;
+}
+
+.champagne {
+  top: 40%;
+  left: 50%;
+  scale: 110%;
+}
+
+.dancer1 {
+  top: -29%;
+  left: 46%;
+  scale: 40%;
+  animation: booogy 2s infinite alternate linear;
+}
+
+@keyframes booogy {
+  0% {
+    transform: skew(0.25rad);
+    scale: 40% 45%;
+    left: 41%;
+    top: -38%;
+  }
+
+  50% {
+    transform: skew(0rad);
+    scale: 40% 35%;
+    left: 46%;
+    top: -29%;
+  }
+
+  100% {
+    transform: skew(-0.25rad);
+    scale: 40% 45%;
+    left: 51%;
+    top: -38%;
+  }
+}
+
+.dancer2 {
+  top: -16%;
+  left: 13%;
+  scale: 43%;
+  transition: transform 3s ease-in-out;
+}
+
+.dancer2:hover {
+  transform: rotate(720deg);
+}
+
+.dancer3 {
+  top: 34%;
+  left: 13%;
+  scale: 115%;
+}
+
+.dancer4 {
+  top: 20%;
+  left: 7%;
+  scale: 74%;
+  animation: jump 1s infinite alternate linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 30%;
+    left: 7%;
+    scale: 74% 37%;
+  }
+
+  100% {
+    top: 16%;
+    left: 7%;
+    scale: 74% 74%;
+  }
+}
+
+.dancer5 {
+  top: 27%;
+  left: 32%;
+  scale: 0.4;
+  animation: upupaway 1s infinite alternate linear;
+}
+
+@keyframes upupaway {
+  0% {
+    top: 25%;
+  }
+  100% {
+    top: 29%;
+  }
+}
+
+.dancer6 {
+  top: 28%;
+  left: 50%;
+  scale: 83%;
+}
+
+.dancer7 {
+  top: 38%;
+  left: 78%;
+  scale: 102%;
+}
+
+.dancer8 {
+  top: -28%;
+  left: 20%;
+  scale: 39%;
+  transition: 1s;
+}
+
+.dancer8:hover {
+  transform: rotateY(360deg);
+  transition: 1s;
+}
+
+.dancer9 {
+  top: 5%;
+  left: 4%;
+  scale: 49%;
+}
+
+.dancer10 {
+  top: -3%;
+  left: 59%;
+  scale: 50%;
+}
+
+.dancer11 {
+  top: 18%;
+  left: 17%;
+  scale: 80%;
+  animation: gacis 1s infinite alternate linear;
+}
+
+@keyframes gacis {
+  0% {
+    transform: skew(0.25rad);
+    top: 18%;
+    left: 17%;
+    scale: 80%;
+  }
+
+  50% {
+    transform: skew(0rad);
+    top: 21%;
+    left: 17%;
+    scale: 80% 70%;
+  }
+
+  100% {
+    transform: skew(-0.25rad);
+    top: 18%;
+    left: 17%;
+    scale: 80%;
+  }
+}
+
+.dancer12 {
+  top: 36%;
+  left: 27%;
+  scale: 61%;
+  animation: kiki 0.5s infinite alternate linear;
+}
+
+@keyframes kiki {
+  0% {
+    transform: skew(0.25rad);
+    top: 36%;
+    left: 27%;
+    scale: 61%;
+  }
+
+  33.3% {
+    transform: skew(0rad);
+    top: 36%;
+    left: 27%;
+    scale: 61%;
+  }
+
+  66.6% {
+    transform: skew(0rad);
+    top: 36%;
+    left: 27%;
+    scale: 61%;
+  }
+
+  100% {
+    transform: skew(-0.25rad);
+    top: 36%;
+    left: 27%;
+    scale: 61%;
+  }
+}
+
+.dancer13 {
+  top: 37%;
+  left: 60%;
+  scale: 102%;
+  animation: opra 2s infinite alternate linear;
+}
+
+@keyframes opra {
+  from {
+    top: 37%;
+    left: 60%;
+    scale: 102%;
+    transform: rotateY(0deg);
+  }
+
+  to {
+    top: 37%;
+    left: 70%;
+    scale: 102%;
+    transform: rotateY(360deg); 
+  }
+
+}
+
+.dancer14 {
+  top: 22%;
+  left: 53%;
+  scale: 79%;
+}
+
+.dancer15 {
+  top: 0%;
+  left: 11%;
+  scale: 55%;
+  animation: marsha 2s infinite alternate linear;
+}
+
+@keyframes marsha {
+  0% {
+    top: 0%;
+    left: 11%;
+    scale: 55%;
+    transform: skew(-0.25rad);
+  }
+
+  33.3% {
+    top: -5%;
+    left: 11%;
+    scale: 55%;
+    transform: skew(0.25rad);
+  }
+
+  66.6% {
+    top: 0%;
+    left: 21%;
+    scale: 55%;
+    transform: skew(-0.25rad);
+  }
+
+  100% {
+    top: -5%;
+    left: 21%;
+    scale: 55%;
+    transform: skew(0.25rad);
+  }
+
+}
+
+.dancer16 {
+  top: 13%;
+  left: 25%;
+  scale: 75%;
+}
+
+.dancer17 {
+  top: 39%;
+  left: 12%;
+  scale: 124%;
+}
+
+.dancer18 {
+  top: 21%;
+  left: 65%;
+  scale: 70%;
+  transition: scale 1s;
+}
+
+.dancer18:hover {
+  scale: 70% 50%;
+}
+
+.dancer19 {
+  top: 34%;
+  left: 56%;
+  scale: 112%;
+  animation: askas 2s infinite alternate linear;
+}
+
+@keyframes askas {
+  from {
+    top: 34%;
+    left: 56%;
+    scale: 112%;
+    transform: rotateY(360deg); 
+  }
+
+  to {
+    top: 34%;
+    left: 56%;
+    scale: -112%;
+  }
+
+}
+
+.dancer20 {
+  top: 31%;
+  left: 15%;
+  scale: 76%;
+  animation: nima 2s infinite alternate linear;
+}
+
+@keyframes nima {
+  from {
+    top: 30%;
+    left: 15%;
+    scale: 75%;
+    transform: skew(0.25rad);
+  }
+
+  to {
+    top: 32%;
+    left: 15%;
+    scale: 77%;
+    transform: skew(-0.25rad);
+  }
+
+}
+
+.Parika3 {
+  top: 13.4%;
+  left: 63.9%;
+  scale: 39%;
+  animation: booogy2 2s infinite alternate linear;
+}
+
+@keyframes booogy2 {
+  0% {
+    transform: skew(0.25rad);
+    scale: 39% 44%;
+    left: 55.9%;
+    top: 1.4%;
+  }
+
+  50% {
+    transform: skew(0rad);
+    scale: 39% 34%;
+    left: 63.9%;
+    top: 16.4%;
+  }
+
+  100% {
+    transform: skew(-0.25rad);
+    scale: 39% 44%;
+    left: 72.2%;
+    top: 1.4%;
+  }
+}
+
+.Parika2 {
+  top: 23.3%;
+  left: 68.6%;
+  scale: 50%;
+}
+
+.Parika1 {
+  top: 22.5%;
+  left: 33.7%;
+  scale: 73.8%;
+}
+
+/*Musarka*/
+
+.Chal {
+  top: 30%;
+  left: 8.2%;
+  scale: 45%;
+  transform: perspective(500px) rotateY(35deg);
+}
+
+.kounai{
+  top: 260px;
+  left: 200px;
+  scale: 0.2;
+}
+
+.shopyman{
+  top: 40px;
+  left: 380px;
+  scale: 0.3;
+}
+
+/*Kitcanet*/
+
+.arsonpurpleguy{
+  top: 270px;
+  left: 714px;
+  scale: 0.3;
+  width: 500px;
+  height: 500px;
+}
+
+.busts_bertolds{
+  top: -290px;
+  left: 740px;
+  scale: 0.11;
+}
+
+.katerga{
+  top: -50px;
+  left: 907px;
+  scale: 0.17;
+}
+
+.nut_kreker{
+  top: -83px;
+  left: 760px;
+  scale: 0.14;
+}
+
+.pudelka{
+  top: 305px;
+  left: 810px;
+  scale: 0.3;
+}
+
+.statushka{
+  top: 116px;
+  left: 695px;
+  scale: 0.35;
+}
+
+.Art_galerys{
+  top: -624px;
+  left: 750px;
+  scale: 0.2;
+}
+
+.clockey{
+  top: -50px;
+  left: 800px;
+  scale: 0.3;
+}
+
+.diskosito{
+  top: -30px;
+  left: 874px;
+  scale: 0.2;
+}
+
+.divantiks{
+  top: 451px;
+  left: 1143px;
+  scale: 0.9;
+}
+
+.fruto{
+  top: 338px;
+  left: 700px;
+  scale: 0.4;
+}
+
+.Ragus_indeginos{
+  top: 638px;
+  left: 630px;
+  scale: 1;
+  transform: perspective(500px) rotateX(35deg);
+  width: 660px;
+  height: 240px;
+}
+
+.stuliksis{
+  top: 440px;
+  left: 1001px;
+  scale: 0.5;
+}
+
+.traukis{
+  top: -140px;
+  left: 240px;
+  scale: 0.6;
+}
+
+.uguns_sezhvieta{
+  top: 144px;
+  left: 215px;
+  scale: 0.5;
+}
+
+.wood{
+  top: 230px;
+  left: 640px;
+  scale: 0.15;
+}
+
+.bookonfroout{
+  top: 370px;
+  left: 670px;
+  scale: 0.4;
+}
+
+.horseshucrabpurble{
+  top: -290px;
+  left: 543px;
+  scale: 0.2;
+}
+
+.sveckas{
+  top: 186px;
+  left: 754px;
+  scale: 0.2;
+}
+
+/*Ehditogotovito*/
+
+.chai_haus{
+  top: 222px;
+  left: 888px;
+  scale: 0.5;
+}
+
+.garelka{
+  top: 245px;
+  left: 850px;
+  scale: 0.25;
+}
+
+.gral_norm{
+  top: 51px;
+  left: 1011px;
+  scale: 0.12;
+}
+
+.koldrens{
+  top: -74px;
+  left: 74px;
+  scale: 0.1;
+}
+
+.kostrula{
+  top: 146px;
+  left: 1075px;
+  scale: 0.24;
+}
+
+.krensis{
+  top: -94px;
+  left: 896px;
+  scale: 0.05;
+}
+
+.kurshka_metalnaja{
+  top: -104px;
+  left: 766px;
+  scale: 0.06;
+}
+
+.Scalester{
+  top: -245px;
+  left: 525px;
+  scale: 0.15;
+}
+
+.table_trubek{
+  top: 56px;
+  left: 1153px;
+  scale: 0.7;
+}
+
+.timwcabin{
+  top: 308px;
+  left: 708px;
+  scale: 0.5;
+  width: 668px;
+  height: 485px;
+}
+
+.winoks_done{
+  top: 185px;
+  left: 439px;
+  scale: 0.2;
+}
+
+.cant{
+  top: 166px;
+  left: 366px;
+  scale: 0.15;
+}
+
+.Gurkus{
+  top: 187px;
+  left: 421px;
+  scale: 0.16;
+}
+
+.kasteplhka{
+  top: 107px;
+  left: 312px;
+  scale: 0.1;
+}
+
+.klever_mesnoi{
+  top: -90px;
+  left: 294px;
+  scale: 0.13;
+}
+
+.Kofe_makes_olds{
+  top: -192px;
+  left: 62px;
+  scale: 0.07;
+}
+
+.Konfetash{
+  top: 159px;
+  left: 506px;
+  scale: 0.14;
+}
+
+.Konkfeta_for_bigus_gajus{
+  top: -364px;
+  left: 673px;
+  scale: 0.1;
+}
+
+.lampus_ne_na_zhire{
+  top: 5px;
+  left: 413px;
+  scale: 0.1;
+}
+
+.Maisses{
+  top: 298px;
+  left: 380px;
+  scale: 0.2;
+}
+
+.Michelssijs_Mauss{
+  top: 465px;
+  left: 1072px;
+  scale: 0.15;
+}
+
+.milostul{
+  top: 198px;
+  left: 925px;
+  scale: 0.15;
+}
+
+.oleivers{
+  top: 240px;
+  left: 380px;
+  scale: 0.1;
+}
+
+.Paklajus_le_nature{
+  top: 540px;
+  left: 720px;
+  scale: 0.7;
+  width: 800px;
+  height: 400px;
+}
+
+.Plantus_for_homes{
+  top: 3px;
+  left: 456px;
+  scale: 0.2;
+}
+
+.polka, .polka2{
+  top: -230px;
+  left: 264px;
+  scale: 0.5;
+}
+
+.Sea_songa{
+  top: 67px;
+  left: 342px;
+  scale: 0.25;
+}
+
+.Stendus_for_rumus_of_tualetus{
+  top: 228px;
+  left: 550px;
+  scale: 0.3;
+}
+
+/*Agestusaria*/
+
+.dvercaspercam{
+  top: 240px;
+  left: 634px;
+  scale: 0.45;
+}
+
+.amamam_kresls{
+  top: -156px;
+  left: -42px;
+  scale: 0.24;
+}
+
+.asoba_chai{
+  top: 300px;
+  left: 400px;
+  scale: 0.17;
+}
+
+.nom_nom_nom{
+  top: 150px;
+  left: 450px;
+  scale: 0.3;
+}
+
+.stolastestums{
+  top: 466px;
+  left: 422px;
+  scale: 0.8;
+}
+
+.Wood_cup{
+  top: 260px;
+  left: 410px;
+  scale: 0.18;
+}
+
+.berge_kage{
+  top: 350px;
+  left: 1020px;
+  scale: 0.3;
+}
+
+.bert_stul{
+  top: 352px;
+  left: 662px;
+  scale: 0.26;
+}
+
+.Dog_eible{
+  top: 400px;
+  left: 946px;
+  scale: 0.3;
+}
+
+.Informator{
+  top: 203px;
+  left: 1209px;
+  scale: 0.2;
+}
+
+.ir_gan_borik{
+  top: 400px;
+  left: 676px;
+  scale: 0.27;
+}
+
+.maizite{
+  top: 330px;
+  left: 1090px;
+  scale: 0.3;
+}
+
+.Melachnijsdoms{
+  top: -80px;
+  left: 807px;
+  scale: 0.25;
+}
+
+.Nav_smieklihgi_jorik{
+  top: 450px;
+  left: 260px;
+  scale: 0.2;
+}
+
+.puishi_ka_es_izskatos{
+  top: 320px;
+  left: 291px;
+  scale: 0.2;
+}
+
+.pumpteken1{
+  top: 397px;
+  left: 993px;
+  scale: 0.2;
+}
+
+.pumpteken2{
+  top: 190px;
+  left: 770px;
+  scale: 0.14;
+}
+
+.pumpteken3{
+  top: -195px;
+  left: 655px;
+  scale: 0.1;
+}
+
+.sosao_dzirnavas{
+  top: 300px;
+  left: 1100px;
+  scale: 0.3;
+}
+
+.stoules{
+  top: 370px;
+  left: 610px;
+  scale: 0.3;
+}
+
+.Stulhka{
+  top: 350px;
+  left: 702px;
+  scale: 0.5;
+}
+
+.sun_fluve_stul{
+  top: 492px;
+  left: 296px;
+  scale: 0.4;
+}
+
+.Svecktur{
+  top: 341px;
+  left: 1243px;
+  scale: 0.6;
+}
+
+.Tod_stul{
+  top: 400px;
+  left: 1370px;
+  scale: 0.3;
+}
+
+.Varnus{
+  top: 300px;
+  left: 820px;
+  scale: 0.2;
+}
+
+.zelogi{
+  top: 155px;
+  left: 800px;
+  scale: 0.1;
+}
+
+.ziluks{
+  top: 340px;
+  left: 1060px;
+  scale: 0.1;
+}
+
+.korges{
+  top: 30px;
+  left: -125px;
+  scale: 0.07;
+}
+
+/*Adito*/
+
+.aditanisms{
+  top: 256px;
+  left: 460px;
+  scale: 0.2;
+}
+
+.costimito{
+  top: 150px;
+  left: 800px;
+  scale: 0.75;
+}
+
+.akmens_nositaamie{
+  top: 120px;
+  left: 793px;
+  scale: 0.2;
+}
+
+.cool_cheir{
+  top: 364px;
+  left: 490px;
+  scale: 0.8;
+}
+
+.diegs{
+  top: 250px;
+  left: 960px;
+  scale: 0.3;
+}
+
+.kompus{
+  top: 320px;
+  left: 620px;
+  scale: 0.15;
+}
+
+.lamba{
+  top: 470px;
+  left: 370px;
+  scale: 0.2;
+}
+
+.mirra{
+  top: -140px;
+  left: 250px;
+  scale: 0.4;
+}
+
+.Potsi{
+  top: 160px;
+  left: 610px;
+  scale: 0.2;
+}
+
+.rags{
+  top: 90px;
+  left: 1000px;
+  scale: 0.2;
+}
+
+.rojal{
+  top: 270px;
+  left: 1030px;
+  scale: 0.8;
+}
+
+.sakta{
+  top: 0px;
+  left: 610px;
+  scale: 0.05;
+}
+
+.waza{
+  top: -160px;
+  left: 482px;
+  scale: 0.07;
+}
+
+.beee_kortina{
+  top: -100px;
+  left: 257px;
+  scale: 0.3;
+}
+
+.foughts{
+  top: -120px;
+  left: 917px;
+  scale: 0.07;
+}
+
+.Lampus_normatus{
+  top: -91px;
+  left: 956px;
+  scale: 0.2;
+}
+
+.mr_egg_painting{
+  top: -436px;
+  left: 430px;
+  scale: 0.16;
+}
+
+.paklajes_uzasnekos_dimensiogos{
+  top: 690px;
+  left: 640px;
+  scale: 1;
+}
+
+.zerkolece{
+  top: 60px;
+  left: 414px;
+  scale: 0.1;
+}
+
+.lustra{
+  top: 28px;
+  left: 825px;
+  scale: 1;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Yours.css">
+    <title>BSMP</title>
+    <script src="Cosm.js" defer></script>
+</head>
+<body>  
+
+    <audio id="sound3" src="AUD/PushMe.mp3"></audio>
+
+    <a href="AbscuraDisko2.html" class="lefto" style="position:absolute; left:1.303%;"></a>
+
+    <img src="IMG\Disko_klubs\Disko_flore.png.jpg" class="becground">
+
+    <img src="IMG\Disko_klubs\Disko_bumba.png" id="BUMBUM3" class="BUMBUM">
+
+    <img src="IMG\Disko_klubs\dancer8.png" class="dancer8">
+
+    <img src="IMG\Disko_klubs\dancer9.png" class="dancer9">
+
+    <img src="IMG\Disko_klubs\dancer11.png" class="dancer11">
+
+    <img src="IMG\Disko_klubs\dancer12.png" class="dancer12">
+
+    <img src="IMG\Disko_klubs\dancer14.png" class="dancer14">
+
+    <img src="IMG\Disko_klubs\dancer13.png" class="dancer13">
+
+    <img src="IMG\Disko_klubs\dancer10.png" class="dancer10">
+
+    <a href="Musarka.html" ><img src="IMG\Disko_klubs\Parika2.png" class="Parika2"></a>
+
+</body>
+<script>
+    const disko3 = document.getElementById("BUMBUM3");
+    const sound3 = document.getElementById("sound3");
+    disko3.addEventListener("click", () => {
+        sound3.currentTime = 0;
+        sound3.play();
+    });    
+</script>
+</html>
